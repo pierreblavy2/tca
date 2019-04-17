@@ -7,10 +7,9 @@ if all conditions are true then a set of actions is performed.
 This formalism allows to express decisions rules in a way that's 
 clearer than nested if blocks and that can easily be implemented in many languages. 
 
+# License
+* Copyright : Pierre Blavy, INRA
+* License : [GPL 3.0](https://www.gnu.org/licenses/lgpl-3.0.txt) or any later version
+
 # Implementation
-The current implementation allows to generate the TCA at runtime and to execute it quickly.
-
-TCA is implemented in *C++* and in *python*. The two implementations are independant.
-
-The code is published under the GPL 3.0 license (see https://www.gnu.org/licenses/gpl-3.0.txt). 
-Copyright : Pierre Blavy, INRA.
+TCA is implemented in **C++** and in **python**. The two implementations are independant.

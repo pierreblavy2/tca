@@ -12,4 +12,4 @@ clearer than nested if blocks and that can easily be implemented in many languag
 * License : [GPL 3.0](https://www.gnu.org/licenses/lgpl-3.0.txt) or any later version
 
 # Implementation
-TCA is implemented in **C++** and in **python**. The two implementations are independant.
+TCA is implemented in **C++** and in **python**. The two implementations are independant. The python version requires cython.

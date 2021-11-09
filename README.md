@@ -9,7 +9,7 @@ clearer than nested if blocks and that can easily be implemented in many languag
 
 # License
 * Copyright : Pierre Blavy, INRA
-* License : [GPL 3.0](https://www.gnu.org/licenses/lgpl-3.0.txt) or any later version
+* License : [LGPL 3.0](https://www.gnu.org/licenses/lgpl-3.0.txt) or any later version
 
 # Implementation
 TCA is implemented in **C++** and in **python** and **cython**. The three implementations are independant.

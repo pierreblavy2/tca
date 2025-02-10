@@ -43,6 +43,9 @@ tca::Condition_id tca::Tca::move_condition(Condition_ptr &&condition){
 	return r;
 }
 
+tca::Condition_id tca::Tca::get_condition_id  (const std::string &name)const{
+	return name_condition.at(name);
+}
 
 //actions
 
@@ -61,6 +64,11 @@ tca::Action_id tca::Tca::move_action(Action_ptr &&action){
 	vect_action.emplace_back(std::move(action));
 	return r;
 }
+
+tca::Action_id tca::Tca::get_action_id(const std::string &name)const{
+	return name_action.at(name);
+}
+
 
 
 //blocks
@@ -93,4 +101,3 @@ void tca::Tca::add(const Block_id &b, const Action_id &x){
 
 
 #undef MK_ID_GENERATOR
-
